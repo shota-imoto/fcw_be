@@ -21,5 +21,6 @@ module FcwBe
 
     config.autoload_paths += %W(#{config.root}/lib/values)
     config.autoload_paths += %W(#{config.root}/lib/services)
+    config.autoload_paths += %W(#{config.root}/lib/forms)
   end
 end
